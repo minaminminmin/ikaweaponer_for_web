@@ -1,0 +1,3 @@
+function winButton() {
+	alert("win");
+}
