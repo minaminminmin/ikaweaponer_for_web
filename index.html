@@ -1,33 +1,92 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8">
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>テンプレート</title>
 		<meta name="description" content="">
 		<meta name="author" content="">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="style.css">
-		<script type="text/javascript" src="processing.js"></script>
+		<link rel="shortcut icon" href="">
+    	<!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+    	<link href="https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css">
+		<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script> -->
 		<!--[if lt IE 9]>
 		<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
 		<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
 		<![endif]-->
-		<link rel="shortcut icon" href="">
+		<script type="text/javascript" src="js/processing.js"></script>
 	</head>
 	<body>
+		<header>
+			<div>
+				<h1><img src="images/herder_img.png" alt="イカウェポナー"></h1>
+			</div>
+		</header>
+
 		<!-- コンテンツを配置 -->
-		<div id="stage1" class="section">
-			<h3>デカライン高架下</h3>
-			<input type="button" value="win" onClick="winButton()">
-			<input type="button" value="lose" onClick="loseButton()">
-			<img src="">
-			<ul>
-				<li>あ</li>
-				<li>あ</li>
-				<li>あ</li>
-			</ul>
+		<div id="contents">
+			<div id="contents_inner">
+				<div id="stage1" class="section">
+					<div class="stage_inner stage_l">
+						<p class="stage">デカライン高架下</p>
+						<input type="button" value="win" onClick="winButton()" class="btn btn_win">
+						<input type="button" value="lose" onClick="loseButton()" class="btn btn_lose">
+					</div>
+					<div class="stage_inner stage_r">
+						<img src="images/herder_img.png" alt="">
+						<ul>
+							<li>あ</li>
+							<li>あ</li>
+							<li>あ</li>
+						</ul>
+					</div>
+				</div>
+				<div id="stage2" class="section">
+					<div class="stage_inner stage_l">
+						<p class="stage">マヒマヒリゾート＆スパ</p>
+						<input type="button" value="win" onClick="winButton()" class="btn btn_win">
+						<input type="button" value="lose" onClick="loseButton()" class="btn btn_lose">
+					</div>
+					<div class="stage_inner stage_r">
+						<img src="images/herder_img.png" alt="">
+						<ul>
+							<li>あ</li>
+							<li>あ</li>
+							<li>あ</li>
+						</ul>
+					</div>
+				</div>
+				<div id="stage3" class="section">
+					<p class="stage">デカライン高架下</p>
+					<input type="button" value="win" onClick="winButton()">
+					<input type="button" value="lose" onClick="loseButton()">
+					<img src="images/herder_img.png" alt="">
+					<ul>
+						<li>あ</li>
+						<li>あ</li>
+						<li>あ</li>
+					</ul>
+				</div>
+				<div id="stage4" class="section">
+					<p class="stage">デカライン高架下</p>
+					<input type="button" value="win" onClick="winButton()">
+					<input type="button" value="lose" onClick="loseButton()">
+					<img src="images/herder_img.png" alt="">
+					<ul>
+						<li>あ</li>
+						<li>あ</li>
+						<li>あ</li>
+					</ul>
+				</div>
+			</div>
 		</div>
 		
+		<footer>
+			<div id="footer"><p>Copyright minaminminmin.</p></div>
+		</footer>
 		<!-- SCRIPTS -->
 		<!-- Example: <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
 	</body>
